@@ -33,8 +33,7 @@ public class Motor
 
     public void spin()
     {
-        System.out.println("VRRRRRRRRRR");
-        System.out.println("Spinning at " + maxRPM + " RPM!");
+        spin(1f);
     }
 
     public String getCompanyName()

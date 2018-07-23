@@ -21,7 +21,7 @@ public class CarMotor extends Motor
         else
         {
             System.out.println("GAS NOISES");
-            spin();
+            super.spin();
         }
     }
 }
