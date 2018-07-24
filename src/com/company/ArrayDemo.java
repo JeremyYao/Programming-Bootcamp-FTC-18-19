@@ -1,7 +1,9 @@
 package com.company;
 
-class ArrayDemo {
-    public static void main(String[] args) {
+class ArrayDemo
+{
+    public static void main(String[] args)
+    {
 
         //declares and allocates memory for 10 integers
         int[] anArray = new int[10];
@@ -41,12 +43,12 @@ class ArrayDemo {
         System.out.println("Element at index 9: "
                 + anArray[9]);
 
-        int[] initalizedArray = {1,2,3};
+        int[] initalizedArray = {1, 2, 3};
 
-        int[][] a2DArray = new int [2][2];
+        int[][] a2DArray = new int[2][2];
 
-       // int[][] a2DArray = {{2, 2},
-       //                    {2, 2,}};
+        // int[][] a2DArray = {{2, 2},
+        //                    {2, 2,}};
 
     }
 }
